@@ -1,0 +1,53 @@
+# Excluir binários e compilados
+bin/
+obj/
+
+# Excluir pastas do Visual Studio
+.vscode/
+.vs/
+
+# Excluir arquivos gerados pelo sistema
+*.DS_Store
+*.log
+*.tlog
+
+# Excluir pastas específicas
+uploads/
+
+# Excluir pacotes NuGet baixados
+*.nupkg
+packages/
+*.snupkg
+
+# Excluir configurações de usuário do Visual Studio
+*.user
+*.suo
+
+# Excluir arquivos de build do Visual Studio Code
+.vscode/*
+
+# Excluir arquivos de configuração de publicação
+.publishsettings
+.nuget/
+
+# Excluir backups e arquivos temporários
+*~
+*.tmp
+*.bak
+*.old
+*.swp
+
+# Excluir arquivos gerados pelo Rider
+.idea/
+.idea_modules/
+
+# Excluir arquivos do diretório do servidor
+.secrets/
+
+# Excluir configurações de segurança do usuário
+*.ps1
+*.ps1xml
+*.psc1
+
+# Excluir arquivos do diretório do servidor
+wwwroot/
